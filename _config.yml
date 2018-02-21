@@ -9,7 +9,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Mikaela Caron & Andrea Tidwell # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: We are seniors at Purdue University taking CNIT 581 Software Design and Development for Robotics.
-  This blog is tracking our progress on our term project.# add description
+  This blog is tracking our progress on our term project.
 
 # Disqus
 discus-identifier: # add your discus identifier
