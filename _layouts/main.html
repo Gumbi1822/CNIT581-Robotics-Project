@@ -16,10 +16,20 @@ layout: default
     <section class="contact">
       <h3 class="contact-title">Contact Us</h3>
       <ul>
+        {% if site.social-linkedin %}
+            <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        {% else %}
+            <li class="linkedin"><a href="https://www.linkedin.com/in/mikaelacaron/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        {% endif %}
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% else %}
           <li class="email"><a href="mailto:caronm@purdue.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        {% endif %}
+        {% if site.social-linkedin %}
+            <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        {% else %}
+            <li class="linkedin"><a href="https://www.linkedin.com/in/andrea-tidwell-28840b13a" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
