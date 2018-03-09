@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Project Blog for CNIT581 (SDR) Software Design and Development for Robotics by Mikaela Caron and Andrea Tidwell.
 permalink: ':title/'
 baseurl: "/CNIT581-Robotics-Project" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://mikaelacaron.com/
 
 # Author Settings
 author: Mikaela Caron & Andrea Tidwell # add your name
